@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="Trade Dashboard", layout="wide")
 
 # Load data
-df = pd.read_csv("/content/exports_imports_final.csv")
+df = pd.read_csv("exports_imports_final.csv")
 
 # Derived column: Trade Balance
 df['trade_balance'] = df['export'] - df['import']
