@@ -5,4 +5,3 @@ geopandas
 matplotlib
 pycountry
 pycountry-convert
-sklearn
