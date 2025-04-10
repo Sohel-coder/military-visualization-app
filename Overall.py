@@ -86,6 +86,8 @@ if section == "Trade Analysis":
     fig_pred.add_trace(go.Scatter(x=imp_years, y=imp_forecast, mode='lines', name='Import Forecast'))
     fig_pred.update_layout(title=f"{selected_country} - Export/Import Forecast", xaxis_title="Year", yaxis_title="Value")
     st.plotly_chart(fig_pred, use_container_width=True)
+    st.markdown("---")
+    st.markdown("Developed by Abhi & Sohel 🌐")
 
 # Military Strength
 elif section == "Military Strength":
