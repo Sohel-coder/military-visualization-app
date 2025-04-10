@@ -99,6 +99,10 @@ if section == "Trade Analysis":
     fig_pred.update_layout(title=f"{selected_country} - Export/Import Forecast", xaxis_title="Year", yaxis_title="Value")
     st.plotly_chart(fig_pred, use_container_width=True)
 
+    st.markdown("---")
+    st.markdown("Developed by Abhi & Sohel 🌐")
+
+
 # 🪖 Military Strength
 elif section == "Military Strength":
     st.header("🪖 Military Strength")
@@ -143,5 +147,3 @@ elif section == "Defence Budget":
                      aspect="auto")
     st.plotly_chart(fig2, use_container_width=True)
 
-st.markdown("---")
-st.markdown("Developed by Abhi & Sohel 🌐")
