@@ -1,7 +1,0 @@
-streamlit
-pandas
-plotly
-geopandas
-matplotlib
-pycountry
-pycountry-convert
