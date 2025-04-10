@@ -8,10 +8,10 @@ from sklearn.linear_model import LinearRegression
 # Load data
 @st.cache_data
 def load_data():
-    exports_imports = pd.read_csv("/content/exports_imports_final.csv")
-    military_strength = pd.read_csv("/content/military_strength_cleaned.csv")
-    missiles = pd.read_csv("/content/missiles_cleaned.csv")
-    defence_budget = pd.read_csv("/content/defence_budget_cleaned.csv", index_col=0)
+    exports_imports = pd.read_csv("exports_imports_final.csv")
+    military_strength = pd.read_csv("military_strength_cleaned.csv")
+    missiles = pd.read_csv("missiles_cleaned.csv")
+    defence_budget = pd.read_csv("defence_budget_cleaned.csv", index_col=0)
     return exports_imports, military_strength, missiles, defence_budget
 
 exports_imports, military_strength, missiles, defence_budget = load_data()
